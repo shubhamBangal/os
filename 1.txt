@@ -1,0 +1,79 @@
+
+
+# 1. `echo`: The `echo` command is used to print text or variables to the #terminal.
+
+   
+   echo "Hello, World!"
+  
+
+#2. `ls`: The `ls` command lists the files and directories in the current #directory.
+
+
+   ls
+  
+
+#3. `read`: The `read` command is used to read input from the user and #store it in a variable.
+
+   
+   read -p "Enter your name: " name
+  
+
+#4. `cat`: The `cat` command is used to display the contents of a file.
+
+   
+   cat file.txt
+
+
+#5. `touch`: The `touch` command is used to create an empty file or #update the timestamp of an existing file.
+
+
+   touch newfile.txt
+
+
+#6. `test`: The `test` command is used for file and string tests. It can be #used in conditional statements.
+
+  
+   if [ -e file.txt ]; then
+       echo "File exists"
+   fi
+   
+
+#7. Loops: You can use `for` and `while` loops in Linux to perform #repetitive tasks.
+
+
+   for i in {1..5}; do
+       echo "Iteration $i"
+   done
+
+
+#8. Arithmetic: You can perform arithmetic operations in the shell #using `expr` or `$(( ))`.
+
+
+   result=$((5 + 3))
+   echo "Result: $result"
+
+
+#9. Conditional Loops: Use `if`, `elif`, and `else` to create conditional #statements.
+
+
+   if [ $age -lt 18 ]; then
+       echo "You are a minor."
+   elif [ $age -ge 18 ]; then
+       echo "You are an adult."
+   else
+       echo "Invalid age."
+   fi
+
+
+#10. `grep`: The `grep` command is used to search for patterns in text. #It's often used to filter lines that match a specific pattern in a file.
+
+  
+   grep "pattern" file.txt
+  
+
+#11. `sed`: The `sed` command is a stream editor for text. It's used for #text manipulation and can perform substitutions, deletions, and more.
+
+
+   sed 's/old/new/g' input.txt > output.txt
+ 
+
