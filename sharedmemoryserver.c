@@ -16,9 +16,7 @@ typedef struct data
 
 int main()
 {
-	printf("\n # ASSIGNMENT NO.- 2 [PART B] ");
-   	printf("\n # Name - Nikhil Bare.");
-   	printf("\n # Roll No.- 307A013.\n");
+
    		
 	int key=0,shmid,i=0;
 	key=ftok(".",'A');
