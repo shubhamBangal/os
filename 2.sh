@@ -1,9 +1,6 @@
 #!/bin/bash
 
-echo "Name:- Bangal Shubham Sachin "
-echo -e "Class:- T.E. I.T. \t\t\tDiv.:- 1 "
-echo "Roll No.:- 307A012"
-echo -e "\t\tAssignment No. 1\n"
+
 
 echo "Enter Address Book Name: "
 read fname
